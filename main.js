@@ -78,8 +78,8 @@ function desincriptar(){
     for (var i=0;i<palabras_pro.length;i++){
         aux_palabras=palabras_pro[i];
         temp=aux_palabras;
-        for (var k=0;k<4;k++){//se utilizo esto porque se ocupra expreciones reguladas entonces
-        for (var j=0;j<4;j++){//se nesecitas mas de una vez para que se complete correcta mente
+        for (var k=0;k<10;k++){//se utilizo esto porque se ocupra expreciones reguladas entonces
+        for (var j=0;j<5;j++){//se nesecitas mas de una vez para que se complete correcta mente
             aux_palabras=temp;
             temp=aux_palabras.replace(vector_palabras[j],vector_letras[j]);
         }
